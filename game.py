@@ -2,11 +2,10 @@ import pygame
 from pygame import mixer
 import sys
 
-#Comente
 pygame.init() #Inicializa o modulo PyGame
 mixer.init()#Inicializa o modulo mixer responsável pelo audio
 
-#Comente
+
 # Importação das bibliotecas necessárias
 import pygame  # Biblioteca principal do Pygame
 from pygame import mixer  # Submódulo de áudio do Pygame
