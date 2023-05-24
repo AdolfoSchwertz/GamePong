@@ -11,6 +11,7 @@ import pygame  # Biblioteca principal do Pygame
 from pygame import mixer  # Submódulo de áudio do Pygame
 import sys  # Módulo do sistema
 
+
 # Inicialização do Pygame
 pygame.init()
 mixer.init()
@@ -34,17 +35,17 @@ WHITE = (255, 255, 255)  # Cor branca
 BLACK = (0, 0, 0)  # Cor preta
 
 # Arquivo de fonte
-font_file = "C:\Press_Start_2P\PressStart2P-Regular.ttf"  # Caminho para o arquivo de fonte
+font_file = "C:/Users/adool/PycharmProjects/pyGames/dist/font/PressStart2P-Regular.ttf"  # Caminho para o arquivo de fonte
 font = pygame.font.Font(font_file, 36)  # Objeto de fonte com tamanho 36
 score_a = 0  # Pontuação do jogador A
 score_b = 0  # Pontuação do jogador B
 
 # Carregamento das músicas e sons
-mixer.music.load("C:/audios/music_game.mp3")  # Carrega a música de fundo
+mixer.music.load("C:/Users/adool/PycharmProjects/pyGames/dist/audios/music_game.mp3")  # Carrega a música de fundo
 mixer.music.set_volume(0.3)  # Define o volume da música
-collision_sound_A = mixer.Sound("C:/audios/Sound_A.wav")  # Carrega o som de colisão A
-collision_sound_B = mixer.Sound("C:/audios/Sound_B.wav")  # Carrega o som de colisão B
-point_sound = mixer.Sound("C:/audios/hoohooo.wav")  # Carrega o som de ponto
+collision_sound_A = mixer.Sound("C:/Users/adool/PycharmProjects/pyGames/dist/audios/Sound_A.wav")  # Carrega o som de colisão A
+collision_sound_B = mixer.Sound("C:/Users/adool/PycharmProjects/pyGames/dist/audios/Sound_B.wav")  # Carrega o som de colisão B
+point_sound = mixer.Sound("C:/Users/adool/PycharmProjects/pyGames/dist/audios/hoohooo.wav")  # Carrega o som de ponto
 
 mixer.music.play(-1)  # Reproduz a música em loop
 
