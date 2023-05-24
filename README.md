@@ -10,7 +10,7 @@ Este mini jogo de ping pong foi desenvolvido utilizando o Pycharm, com a bibliot
 
 A seguir segue o executável do jogo:
 
-
+[Download](https://developer.vuforia.com/user/login?url=/downloads/sdk%3F_%3D1678117884)
 
 ## Definição das variaveis
 
