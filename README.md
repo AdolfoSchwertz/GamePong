@@ -10,7 +10,7 @@ Este mini jogo de ping pong foi desenvolvido utilizando o Pycharm, com a bibliot
 
 A seguir segue o executável do jogo:
 
-[Download](/jogo/game.exe)
+[Jogo](jogo/game.exe)
 
 ## Definição das variaveis
 
